@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-mdoule.exports = {
+modoule.exports = {
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
