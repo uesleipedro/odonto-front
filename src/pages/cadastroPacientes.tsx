@@ -19,7 +19,7 @@ interface Paciente {
     email_responsavel: string
 }
 
-const cadastroPacientes = () => {
+const CadastroPacientes = () => {
 
     const [paciente, setPaciente] = useState<Paciente>()
 
@@ -202,4 +202,4 @@ const cadastroPacientes = () => {
     )
 }
 
-export default cadastroPacientes
+export default CadastroPacientes

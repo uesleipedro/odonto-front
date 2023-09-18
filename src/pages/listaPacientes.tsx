@@ -15,7 +15,7 @@ type GetPacientesResponse = {
     data: Pacientes[];
 }
 
-const listaPacientes = () => {
+const ListaPacientes = () => {
 
     const [paciente, setPaciente] = useState([])
     const [searchVal, setSearchVal] = useState('')
@@ -101,4 +101,4 @@ const listaPacientes = () => {
     )
 }
 
-export default listaPacientes
+export default ListaPacientes
